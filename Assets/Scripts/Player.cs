@@ -26,5 +26,9 @@ public class Player : MonoBehaviour
     void Update()
     {
         direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+        if (direction.magnitude > 1)
+        {
+            direction = direction.normalized;
+        }
     }
 }

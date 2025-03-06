@@ -42,7 +42,7 @@ public class StoveZone : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (zoneBehaviour.seenState >= 4)
+        if (zoneBehaviour.seenState >= 6)
         {
             interactMessageText.text = "Press E to interact with " + objectName;
             interactMessage.SetActive(true);

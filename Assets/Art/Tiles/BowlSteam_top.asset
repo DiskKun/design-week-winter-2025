@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
-  m_Name: BowlSteam
+  m_Name: BowlSteam_top
   m_EditorClassIdentifier: 
   m_AnimatedSprites:
-  - {fileID: -1635501580, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
-  - {fileID: -1138938784, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
-  - {fileID: 1017576790, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
-  - {fileID: 1764848748, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
+  - {fileID: 1249889727, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
+  - {fileID: -442779921, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
+  - {fileID: 1630145911, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
+  - {fileID: 1708680800, guid: 5bc9596e517b94639b0079a837e98865, type: 3}
   m_MinSpeed: 10
   m_MaxSpeed: 10
   m_AnimationStartTime: 0

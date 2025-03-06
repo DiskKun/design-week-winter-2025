@@ -669,7 +669,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1cb1844ee1a0c479d8cf103c4cbdfecd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3357,6 +3357,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 4, y: 6, z: 2}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 27
+      m_TileSpriteIndex: 27
+      m_TileMatrixIndex: 5
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 5, y: 6, z: 0}
     second:
       serializedVersion: 2
@@ -3449,6 +3459,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 88ca97efadf9b43ac8c611709376a334, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 92fe82a95dda04a2e867941c936a7872, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 4e1dda714dea0412b81a9102519b2e47, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 66151710, guid: a7f4e20ff24874ace9d425612c27f567, type: 3}
@@ -3504,6 +3516,8 @@ Tilemap:
     m_Data: {fileID: 598667131, guid: e86b2bb83fcb04290acf84ffa9288704, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 463116184, guid: e86b2bb83fcb04290acf84ffa9288704, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 21300000, guid: deaca12ba45254aaebfb8d2322761047, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 262
     m_Data:
@@ -3595,7 +3609,7 @@ Tilemap:
       e31: 0
       e32: 0
       e33: 1
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data:
       e00: 1
       e01: 0
@@ -3614,7 +3628,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 267
+  - m_RefCount: 268
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   - m_RefCount: 0
     m_Data: {r: 0.9190385, g: 0.61064327, b: 0.6191321, a: 1}
@@ -3900,7 +3914,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2f645273d7ef14fe69900eb9e413fc5a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3972,6 +3986,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 38d659dbb6c244481904bc28397d8aff, type: 2}
   - {fileID: 11400000, guid: abc2169b880f646d6b7448310ff28ce2, type: 2}
   - {fileID: 11400000, guid: e3f13dc7a51a94556819a4d03c3a6e4b, type: 2}
+  - {fileID: 11400000, guid: 046bcbd86f37f448485036db7e4e5c14, type: 2}
 --- !u!4 &836249679
 Transform:
   m_ObjectHideFlags: 0
@@ -4366,8 +4381,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02109325, y: 0}
-  m_Size: {x: 0.59448934, y: 1}
+  m_Offset: {x: -0.014208317, y: -0.07060313}
+  m_Size: {x: 0.4297495, y: 0.76465654}
   m_Direction: 0
 --- !u!1 &1327948389
 GameObject:

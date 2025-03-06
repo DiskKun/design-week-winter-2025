@@ -37,7 +37,9 @@ public class ObjectManager : MonoBehaviour
             // Window 4
             new Vector3Int(5, -4, 1),
             // Pot 5
-            new Vector3Int(4, 5, 2)
+            new Vector3Int(4, 5, 2),
+            // Pot top 6
+            new Vector3Int(4, 6, 2)
         };
 
 
@@ -109,5 +111,9 @@ public class ObjectManager : MonoBehaviour
         tilemap.SetTile(tilePositions[3], stoveTiles[stoveState]);
         tilemap.SetTile(tilePositions[4], windowTiles[windowState]);
         tilemap.SetTile(tilePositions[5], potTiles[potState]);
+        if (potState == 3)
+        {
+            tilemap.SetTile(tilePositions[6], potTiles[4]);
+        }
     }
 }
