@@ -33,6 +33,10 @@ public class SinkZone : MonoBehaviour
             {
                 zoneBehaviour.seenState = 3;
             }
+            if (zoneBehaviour.seenState == 9)
+            {
+                zoneBehaviour.seenState = 10;
+            }
             
         }
     }

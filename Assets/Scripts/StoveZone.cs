@@ -29,9 +29,13 @@ public class StoveZone : MonoBehaviour
         if (interact && Input.GetKeyDown(KeyCode.E))
         {
             objectManager.SetState("stove", 2);
-            if (zoneBehaviour.seenState == 4)
+            if (zoneBehaviour.seenState == 6)
             {
-                zoneBehaviour.seenState = 5;
+                zoneBehaviour.seenState = 7;
+            }
+            if (zoneBehaviour.seenState == 11)
+            {
+                zoneBehaviour.seenState = 12;
             }
         }
     }
