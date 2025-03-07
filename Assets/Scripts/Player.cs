@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     Vector2 direction;
 
     public float speed;
+
+    public Animator animator;
     
     // Start is called before the first frame update
     void Start()
@@ -30,5 +32,14 @@ public class Player : MonoBehaviour
         {
             direction = direction.normalized;
         }
+
+
+        if (direction.magnitude == 0) {
+            animator.SetBool("idle", true);
+        }
+
+        animator.SetFloat("xVelocity", Input.GetAxisRaw("Horizontal"));
+        animator.SetFloat("yVelocity", Input.GetAxisRaw("Vertical"));
+        
     }
 }
